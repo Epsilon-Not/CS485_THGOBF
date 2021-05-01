@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 2028937737826844704}
   - component: {fileID: 2028937737826844707}
   - component: {fileID: 2028937737826844706}
-  - component: {fileID: 4770108727713706907}
   m_Layer: 0
   m_Name: MazeOuter
   m_TagString: Untagged
@@ -30,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 2028937737826844709}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 10.4293, y: -2.7851357, z: 99.98744}
-  m_LocalScale: {x: 1, y: 2, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -249,8 +248,10 @@ MonoBehaviour:
   m_Mesh: {fileID: 0}
   m_IsSelectable: 1
   m_SelectedFaces: 
-  m_SelectedEdges: []
-  m_SelectedVertices: 
+  m_SelectedEdges:
+  - a: 15
+    b: 14
+  m_SelectedVertices: 0f0000000e000000
 --- !u!23 &2028937737826844704
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -314,16 +315,3 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!65 &4770108727713706907
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2028937737826844709}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.0352612, y: 10, z: 74.60264}
-  m_Center: {x: 0.48236942, y: 1.25, z: -37.30132}
