@@ -44,7 +44,7 @@ public class Movement : MonoBehaviour
         rotationX = transform.localEulerAngles.y + Input.GetAxis("Mouse X") * rotationSpeed;
         rotationY += Input.GetAxis("Mouse Y") * rotationSpeed;
         transform.localEulerAngles = new Vector3(-rotationY, rotationX, 0);
-        bool isGrounded = Physics.CheckSphere(feet.position, 0.1f, ground);
+        bool isGrounded = Physics.CheckSphere(feet.position, 0.5f, ground);
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             //audio.Play;
