@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.867; Version 2009; 64bit' Language: 'en' Physical Memory: 49084 MB
+OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 49084 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/sghus/Documents/CS485_THGOBF
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56622
+62298
 Successfully changed project path to: C:/Users/sghus/Documents/CS485_THGOBF
 C:/Users/sghus/Documents/CS485_THGOBF
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 20.51 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 58.13 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,495 +35,83 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003119 seconds.
+Registered in 0.002429 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 20.97 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 55.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.737 seconds
+- Completed reload, in  1.998 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000596 seconds.
+Registered in 0.000838 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.785 seconds
+- Completed reload, in  0.864 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.0 MB.
-System memory in use after: 57.1 MB.
+Unloading 1482 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.1 MB.
+System memory in use after: 151.2 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1555.
-Total: 1.574900 ms (FindLiveObjects: 0.116300 ms CreateObjectMapping: 0.031000 ms MarkObjects: 1.360100 ms  DeleteObjects: 0.066300 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Imported
-  artifactKey: Guid(5c208642c106fa2469b8443917e70a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported using Guid(5c208642c106fa2469b8443917e70a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b01cb54b4969a7a322ddc9d665c01e') in 0.003478 seconds
-  Import took 0.004975 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000539 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.696 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1109 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.0 MB.
-System memory in use after: 57.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1559.
-Total: 1.459900 ms (FindLiveObjects: 0.130200 ms CreateObjectMapping: 0.032200 ms MarkObjects: 1.234400 ms  DeleteObjects: 0.062000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000762 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.713 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1109 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.0 MB.
-System memory in use after: 57.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1562.
-Total: 8.594300 ms (FindLiveObjects: 0.128600 ms CreateObjectMapping: 0.033800 ms MarkObjects: 8.375800 ms  DeleteObjects: 0.054600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002413 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.777 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1470 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.2 MB.
-System memory in use after: 69.3 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 1904.
-Total: 13.903500 ms (FindLiveObjects: 0.497900 ms CreateObjectMapping: 0.177400 ms MarkObjects: 8.218400 ms  DeleteObjects: 5.002800 ms)
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 1940.
+Total: 2.226700 ms (FindLiveObjects: 0.305100 ms CreateObjectMapping: 0.155800 ms MarkObjects: 1.614100 ms  DeleteObjects: 0.150500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1016.528391 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(cd83bd03952fea44790341655a5e77fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(cd83bd03952fea44790341655a5e77fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c345d8586e5f31437739a6ef84633c') in 0.005241 seconds
-  Import took 0.007776 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001957 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(cd83bd03952fea44790341655a5e77fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(cd83bd03952fea44790341655a5e77fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c345d8586e5f31437739a6ef84633c') in 0.001587 seconds
-  Import took 0.003543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.238116 seconds.
-  path: Assets/Scenes/Scene1.unity
-  artifactKey: Guid(9aacf36514a8576499cd74cd0278c943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene1.unity using Guid(9aacf36514a8576499cd74cd0278c943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ed5f888ec5731552e3d45ad4d62deb') in 0.003434 seconds
-  Import took 0.005782 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000684 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.789 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1471 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.2 MB.
-System memory in use after: 69.3 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 1909.
-Total: 3.122600 ms (FindLiveObjects: 0.162300 ms CreateObjectMapping: 0.047200 ms MarkObjects: 1.620200 ms  DeleteObjects: 1.292000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000952 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.768 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1471 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.2 MB.
-System memory in use after: 69.3 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 1912.
-Total: 3.447100 ms (FindLiveObjects: 0.241100 ms CreateObjectMapping: 0.073400 ms MarkObjects: 1.840700 ms  DeleteObjects: 1.290400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 201.085181 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58c32c74971579209c983feef23e212') in 0.022546 seconds
-  Import took 0.024798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.910258 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1
-  artifactKey: Guid(888629498d6d137419745ed816e66a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1 using Guid(888629498d6d137419745ed816e66a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2caf45a63f10d50fe52296e4bfee9eb1') in 0.001954 seconds
-  Import took 0.004276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.668507 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2
-  artifactKey: Guid(a9fdfd90d944d754dabfeec9357eea84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2 using Guid(a9fdfd90d944d754dabfeec9357eea84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be934ad320109180328aebdba60ef8db') in 0.002259 seconds
-  Import took 0.004607 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.924682 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material
-  artifactKey: Guid(57d3ef3ed6ce3d74ea9fda37aaa2f6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material using Guid(57d3ef3ed6ce3d74ea9fda37aaa2f6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e3547210811a5f358c71bb5d6fb869') in 0.001892 seconds
-  Import took 0.003886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.390994 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Stone
-  artifactKey: Guid(f9b317c64506c8e4a9f6c6adee78f6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Stone using Guid(f9b317c64506c8e4a9f6c6adee78f6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d2d0a7f9dda09ee061f503b22459ce') in 0.001906 seconds
-  Import took 0.004000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.081398 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Stone/mat_Stone_moss_old.mat
-  artifactKey: Guid(d5cede585b8d5e24eb9ac6613fe6fd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Stone/mat_Stone_moss_old.mat using Guid(d5cede585b8d5e24eb9ac6613fe6fd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5449eb15dc2dbc626c7661a169d615') in 0.156275 seconds
-  Import took 0.158441 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Stone/mat_stone_tiled_ground_old_moss.mat
-  artifactKey: Guid(0fda17b8266464d4ba90b3271a5a1bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Stone/mat_stone_tiled_ground_old_moss.mat using Guid(0fda17b8266464d4ba90b3271a5a1bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197cd98171ef3bc7357281479824c9f3') in 0.087746 seconds
-  Import took 0.090146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Stone/mat_stone_tiled_ground_old.mat
-  artifactKey: Guid(34d76e51fbe000644a1129114c17d810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Stone/mat_stone_tiled_ground_old.mat using Guid(34d76e51fbe000644a1129114c17d810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963486433131d59668c9cb230fafc85c') in 0.006845 seconds
-  Import took 0.009016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Stone/mat_stone_yellow.mat
-  artifactKey: Guid(6c856436a8901d74e8b2da05fc401918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Stone/mat_stone_yellow.mat using Guid(6c856436a8901d74e8b2da05fc401918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c283d59eadc376140da77e8051bc087') in 0.018981 seconds
-  Import took 0.021315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Stone/mat_stone_simple.mat
-  artifactKey: Guid(d4fc81332c2e2854c9d8e43ebe7224b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Stone/mat_stone_simple.mat using Guid(d4fc81332c2e2854c9d8e43ebe7224b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c97cd5da91bced91e9e0f5c7973c31a') in 0.006520 seconds
-  Import took 0.008938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Stone/mat_Stone_moss_old.mat
-  artifactKey: Guid(d5cede585b8d5e24eb9ac6613fe6fd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Stone/mat_Stone_moss_old.mat using Guid(d5cede585b8d5e24eb9ac6613fe6fd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5449eb15dc2dbc626c7661a169d615') in 0.006273 seconds
-  Import took 0.010767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.998433 seconds.
   path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_grass_clear.mat
   artifactKey: Guid(d2384f03b137be141ba74930d330068d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_grass_clear.mat using Guid(d2384f03b137be141ba74930d330068d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9bd388341b1bfaec1e5f527db09c12') in 0.010026 seconds
-  Import took 0.012556 seconds .
+Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_grass_clear.mat using Guid(d2384f03b137be141ba74930d330068d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745a15cba20c50bbdefe2d07166678e5') in 0.106918 seconds
+  Import took 0.109308 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_snow_2.mat
-  artifactKey: Guid(24b96a533bbe9d240a55a67f95f9aa20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_snow_2.mat using Guid(24b96a533bbe9d240a55a67f95f9aa20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed15364848210cdc1a27e1255f2e70a8') in 0.007707 seconds
-  Import took 0.009683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_grass_fine.mat
-  artifactKey: Guid(aa91889f0e01faf4b9e0d0db84fa939b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_grass_fine.mat using Guid(aa91889f0e01faf4b9e0d0db84fa939b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453be459d7f6b580647c9dc17e16b7c7') in 0.009648 seconds
-  Import took 0.011956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_1.mat
-  artifactKey: Guid(8ea315f9de567fe419a0eab82f9d1503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_1.mat using Guid(8ea315f9de567fe419a0eab82f9d1503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49aaa9a09905c29a2f89937b626f3ba4') in 0.007876 seconds
-  Import took 0.010057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_rock_moss.mat
-  artifactKey: Guid(e810f09760b840043b7c0d8a4f72ba3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_rock_moss.mat using Guid(e810f09760b840043b7c0d8a4f72ba3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60fbe854daf4c1072a09f65230005a44') in 0.007552 seconds
-  Import took 0.009601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_4.mat
-  artifactKey: Guid(a895dc7fde6e9554da73a2d7e980a955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_4.mat using Guid(a895dc7fde6e9554da73a2d7e980a955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8173be55c991d9176a30149edd721818') in 0.013097 seconds
-  Import took 0.015170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_grass.mat
-  artifactKey: Guid(87bec1c0cf3aac248a3dc8e5a3ece457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_grass.mat using Guid(87bec1c0cf3aac248a3dc8e5a3ece457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d595cb29cdeb665d4200552e15c498a') in 0.014074 seconds
-  Import took 0.016244 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_rock.mat
-  artifactKey: Guid(5be91753b0e8b1445a2af3e02bd1c2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_rock.mat using Guid(5be91753b0e8b1445a2af3e02bd1c2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f26a92ab8a2b10915ba63603be1305') in 0.016864 seconds
-  Import took 0.018857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
+  Time since last request: 0.000410 seconds.
   path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_grass_flowers.mat
   artifactKey: Guid(06b29c7453958294dabb92e5befc022b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_grass_flowers.mat using Guid(06b29c7453958294dabb92e5befc022b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3fc71794ef90f095ca4690a2255aa87') in 0.008060 seconds
-  Import took 0.010212 seconds .
+Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_grass_flowers.mat using Guid(06b29c7453958294dabb92e5befc022b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33a874713263ea4b3d367a7052ab3bd') in 0.020415 seconds
+  Import took 0.023213 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_3.mat
-  artifactKey: Guid(de7fb8b2460b8644fa7f935117fcc9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_3.mat using Guid(de7fb8b2460b8644fa7f935117fcc9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6965ec7261fab10d471ff19cef535d0') in 0.007190 seconds
-  Import took 0.009909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_grass_simple.mat
-  artifactKey: Guid(c4e88015e2689a040b4bad79f629502a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_grass_simple.mat using Guid(c4e88015e2689a040b4bad79f629502a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22959c654dc293444bd93737907f97a3') in 0.006312 seconds
-  Import took 0.008414 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_sand.mat
-  artifactKey: Guid(edd243e7693ba5e488ed275a897caf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_sand.mat using Guid(edd243e7693ba5e488ed275a897caf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e20fd0d6829d6366af52aedf429dbe') in 0.011071 seconds
-  Import took 0.013170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_rock_leaf.mat
-  artifactKey: Guid(31ad29cb40e31b547a5791aa3b60f48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_rock_leaf.mat using Guid(31ad29cb40e31b547a5791aa3b60f48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f91caede16d811ed282431b507273a1') in 0.006717 seconds
-  Import took 0.009552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_beach.mat
-  artifactKey: Guid(3ca56693c60f8b9498fbb894d2efc270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_beach.mat using Guid(3ca56693c60f8b9498fbb894d2efc270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73566409f103e8437b6a0c1af5dcbd4') in 0.007503 seconds
-  Import took 0.009589 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_dirt.mat
-  artifactKey: Guid(35cbe7cc853044c458a489752955e140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_dirt.mat using Guid(35cbe7cc853044c458a489752955e140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5a3ae470280752e2f1490a59b42aea') in 0.011952 seconds
-  Import took 0.014072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_beach_2.mat
-  artifactKey: Guid(2d08bf9da02e9c14db83872a305151d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_beach_2.mat using Guid(2d08bf9da02e9c14db83872a305151d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9edb8ce03cf96076a7132cae4616f95') in 0.006299 seconds
-  Import took 0.008875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_grass_dry.mat
-  artifactKey: Guid(6a7d87d029585774487401548640b330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_grass_dry.mat using Guid(6a7d87d029585774487401548640b330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8943402aab0a46b96c5496180a6499') in 0.008312 seconds
-  Import took 0.010398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_2.mat
-  artifactKey: Guid(21797439319329141920cb33abb52b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_2.mat using Guid(21797439319329141920cb33abb52b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cc7f07d9d34a5a00a1a7e15058dcf2') in 0.010558 seconds
-  Import took 0.012728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
+  Time since last request: 0.000312 seconds.
   path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_grass_2.mat
   artifactKey: Guid(5bdd1fb17e118e54a8b0292c34284610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_grass_2.mat using Guid(5bdd1fb17e118e54a8b0292c34284610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa054c358dd2183ccc5ac252c8e6b4cd') in 0.009737 seconds
-  Import took 0.011829 seconds .
+Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_grass_2.mat using Guid(5bdd1fb17e118e54a8b0292c34284610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb7e4904fc482c39c090747e3c0a625') in 0.022389 seconds
+  Import took 0.025071 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_snow_1.mat
-  artifactKey: Guid(4b86cbe337d6b5343b32da1f0c7a612f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_snow_1.mat using Guid(4b86cbe337d6b5343b32da1f0c7a612f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7da422c05ae9006dff1924c33a74f93') in 0.007793 seconds
-  Import took 0.010480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000640 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_dry.mat
-  artifactKey: Guid(36e1af8c37511354780c477819088df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_dry.mat using Guid(36e1af8c37511354780c477819088df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239ce0512c37dd7c851da4f82eb9b5f7') in 0.006878 seconds
-  Import took 0.009401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_mud.mat
-  artifactKey: Guid(6f2dfc7d3d27c414fbebb61c22d6770c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_ground_mud.mat using Guid(6f2dfc7d3d27c414fbebb61c22d6770c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20d36bcdf9fec9651b579c14f434baa') in 0.009635 seconds
-  Import took 0.011755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
+  Time since last request: 0.000223 seconds.
   path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_grass_simple_b.mat
   artifactKey: Guid(27d3d60dc9096254a820b3a3e894e4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_grass_simple_b.mat using Guid(27d3d60dc9096254a820b3a3e894e4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a53f2f345f5baf686eba0069ab25e7') in 0.007398 seconds
-  Import took 0.009447 seconds .
+Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_grass_simple_b.mat using Guid(27d3d60dc9096254a820b3a3e894e4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f8d4ee503613fb7ab16d2a8f7d8117') in 0.014310 seconds
+  Import took 0.016549 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 0.003439 seconds.
+  path: Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_grass_simple_b.mat
+  artifactKey: Guid(27d3d60dc9096254a820b3a3e894e4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/PBR Material Bundle Vol1/Ultimate Material Pack 1-2/Material/Ground/mat_grass_simple_b.mat using Guid(27d3d60dc9096254a820b3a3e894e4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f8d4ee503613fb7ab16d2a8f7d8117') in 0.018716 seconds
+  Import took 0.021199 seconds .
+
