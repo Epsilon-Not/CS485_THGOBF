@@ -13,7 +13,7 @@ public class Movement : MonoBehaviour
     private float rotationSpeed;
     private float rotationX;
     private float rotationY;
-    //private AudioSource audio;
+    private new AudioSource audio;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +23,8 @@ public class Movement : MonoBehaviour
         rotationY = 10f;
         jumpHeight = 5.0f;
         rBody = GetComponent<Rigidbody>();
-        //audio = GetComponent<AudioSource>();
+        audio = GetComponent<AudioSource>();
+        audio.Play();
     }
 
     // Update is called once per frame
@@ -47,7 +48,8 @@ public class Movement : MonoBehaviour
         bool isGrounded = Physics.CheckSphere(feet.position, 0.1f, ground);
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            //audio.Play;
+           
+            rBody.constraints = ~RigidbodyConstraints.FreezePositionY;
             rBody.AddForce(Vector3.up * jumpHeight, ForceMode.VelocityChange);
         }
 

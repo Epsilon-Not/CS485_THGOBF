@@ -3,12 +3,18 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class CollisionHandler : MonoBehaviour
 {
+    private Rigidbody rBody;
+
+    private void Start()
+    {
+        rBody = GetComponent<Rigidbody>();
+    }
     void OnCollisionEnter(Collision collision)
     {
         // Switch statement to handle collisions with different objects
         switch (collision.gameObject.tag)
         {
-            case "Friendly":
+            case "Friedfly":
                 Debug.Log("Friendly Collision");
                 break;
             case "Finish":
@@ -26,6 +32,13 @@ public class CollisionHandler : MonoBehaviour
         }
     }
 
+    //private void OnCollisionStay(Collision collision)
+    //{
+    //    if(collision.gameObject.tag == "Wall")
+    //    {
+    //        rBody.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotationY;
+    //    }
+    //}
     private void ReloadLevel()
     {
         SceneManager.LoadScene(1);
