@@ -12,14 +12,15 @@ public class CollisionHandler : MonoBehaviour
                 Debug.Log("Friendly Collision");
                 break;
             case "Finish":
-                ReloadLevel();
                 Debug.Log("Level Finished");
                 break;
             case "Power Up":
                 Debug.Log("Power Up Collision");
                 break;
-            default:
+            case "Hazard":
                 ReloadLevel();
+                break;
+            default:
                 break;
 
         }
