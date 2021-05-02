@@ -13,7 +13,7 @@ public class Movement : MonoBehaviour
     private float rotationSpeed;
     private float rotationX;
     private float rotationY;
-    private AudioSource audio;
+    //private AudioSource audio;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +23,7 @@ public class Movement : MonoBehaviour
         rotationY = 10f;
         jumpHeight = 5.0f;
         rBody = GetComponent<Rigidbody>();
-        audio = GetComponent<AudioSource>();
+        //audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
