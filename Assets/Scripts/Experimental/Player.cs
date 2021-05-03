@@ -24,5 +24,6 @@ public class Player : MonoBehaviour
 
         //keyList = list of player's keys 
     }
+    //Many methods to try
 
 }
