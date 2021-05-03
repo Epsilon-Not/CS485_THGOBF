@@ -1,13 +1,26 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class CollisionHandler : MonoBehaviour
 {
+    
     private Rigidbody rBody;
 
     private void Start()
     {
         rBody = GetComponent<Rigidbody>();
+     
+    }
+
+    IEnumerator delayDeath()
+    {
+        //Print the time of when the function is first called.
+        Debug.Log("Started Coroutine at timestamp : " + Time.time);
+
+        //yield on a new YieldInstruction that waits for 5 seconds.
+        yield return new WaitForSeconds(2);
+        
     }
     void OnCollisionEnter(Collision collision)
     {
@@ -19,6 +32,7 @@ public class CollisionHandler : MonoBehaviour
                 break;
             case "Finish":
                 Debug.Log("Level Finished");
+                SceneManager.LoadScene(0);
                 break;
             case "Power Up":
                 Debug.Log("Power Up Collision");
@@ -32,13 +46,7 @@ public class CollisionHandler : MonoBehaviour
         }
     }
 
-    //private void OnCollisionStay(Collision collision)
-    //{
-    //    if(collision.gameObject.tag == "Wall")
-    //    {
-    //        rBody.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotationY;
-    //    }
-    //}
+   
     private void ReloadLevel()
     {
         SceneManager.LoadScene(1);

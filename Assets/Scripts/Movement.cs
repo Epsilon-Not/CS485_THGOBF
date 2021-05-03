@@ -7,6 +7,8 @@ public class Movement : MonoBehaviour
     public float speed;
     public Transform feet;
     public LayerMask ground;
+    public GameObject bulletPrefab;
+    public Transform bulletSpawn;
     private float jumpHeight;
     private Vector3 direction;
     private Rigidbody rBody;
@@ -14,6 +16,7 @@ public class Movement : MonoBehaviour
     private float rotationX;
     private float rotationY;
     private new AudioSource audio;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +28,7 @@ public class Movement : MonoBehaviour
         rBody = GetComponent<Rigidbody>();
         audio = GetComponent<AudioSource>();
         audio.Play();
+        Cursor.lockState = CursorLockMode.Confined;
     }
 
     // Update is called once per frame
@@ -47,11 +51,22 @@ public class Movement : MonoBehaviour
         transform.localEulerAngles = new Vector3(-rotationY, rotationX, 0);
         bool isGrounded = Physics.CheckSphere(feet.position, 0.1f, ground);
         if (Input.GetButtonDown("Jump") && isGrounded)
-        {
-           
-            rBody.constraints = ~RigidbodyConstraints.FreezePositionY;
+        {           
             rBody.AddForce(Vector3.up * jumpHeight, ForceMode.VelocityChange);
         }
 
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Fire();
+        }
+
+        void Fire()
+        {
+            var bullet = (GameObject)Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
+            bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 100;
+            Destroy(bullet, 2.0f);
+        }
     }
+
+
 }
