@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    public float speed;
+    [SerializeField] [Range(0, 10)] float speed = 4.75f;
     public Transform feet;
     public LayerMask ground;
     public GameObject bulletPrefab;
@@ -20,7 +20,7 @@ public class Movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speed = 7.0f;
+      
         rotationSpeed = 2f;
         rotationX = 0;
         rotationY = 10f;

@@ -32,7 +32,7 @@ public class CollisionHandler : MonoBehaviour
                 break;
             case "Finish":
                 Debug.Log("Level Finished");
-                SceneManager.LoadScene(0);
+                LoadNextLevel();
                 break;
             case "Power Up":
                 Debug.Log("Power Up Collision");
@@ -46,9 +46,15 @@ public class CollisionHandler : MonoBehaviour
         }
     }
 
-   
+    private void LoadNextLevel()
+    {
+        int scene = SceneManager.GetActiveScene().buildIndex + 1;
+        SceneManager.LoadScene(scene, LoadSceneMode.Single);
+    }
+
     private void ReloadLevel()
     {
-        SceneManager.LoadScene(1);
+        int scene = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(scene, LoadSceneMode.Single);
     }
 }

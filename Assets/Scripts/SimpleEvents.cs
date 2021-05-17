@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class SimpleEvents : MonoBehaviour
 {
+    
     public UnityEngine.Events.UnityEvent event1;
-    public UnityEngine.Events.UnityEvent event2;
     public Transform obj1;
     public Transform obj2;
    
-    
-
     // Update is called once per frame
     void Update()
     {
@@ -22,11 +20,6 @@ public class SimpleEvents : MonoBehaviour
                 event1.Invoke();
             }
         }
-        
-        
-       
-       
-        
-        
+           
     }
 }
