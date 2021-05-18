@@ -737,13 +737,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 1084433627}
   m_HandleRect: {fileID: 578048548}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
-  m_WholeNumbers: 0
+  m_MinValue: -80
+  m_MaxValue: 0
+  m_WholeNumbers: 1
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 564112525}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: SetVolume
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &564112520
 GameObject:
   m_ObjectHideFlags: 0
@@ -756,6 +768,7 @@ GameObject:
   - component: {fileID: 564112523}
   - component: {fileID: 564112522}
   - component: {fileID: 564112521}
+  - component: {fileID: 564112525}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -846,6 +859,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &564112525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564112520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5572491ac1791c5459472142f96cf1ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: 526bbb6d6343d6b45a684eea240d4a95, type: 2}
 --- !u!1 &578048547
 GameObject:
   m_ObjectHideFlags: 0
@@ -1138,8 +1164,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1871812978}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 564112525}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
@@ -1962,8 +1988,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1871812978}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 564112525}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
@@ -2291,7 +2317,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1871812977}
-  - component: {fileID: 1871812978}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -2322,18 +2347,6 @@ RectTransform:
   m_AnchoredPosition: {x: 5.7, y: 31}
   m_SizeDelta: {x: 812.9125, y: 387.17984}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1871812978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1871812976}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5572491ac1791c5459472142f96cf1ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1923750059
 GameObject:
   m_ObjectHideFlags: 0
