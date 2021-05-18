@@ -41193,6 +41193,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4284310734431977655, guid: e8da256c9608042418a524181980774c, type: 3}
+      propertyPath: speed
+      value: 4.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4284310734431977655, guid: e8da256c9608042418a524181980774c, type: 3}
       propertyPath: bulletSpawn
       value: 
       objectReference: {fileID: 82684608}

@@ -24,7 +24,6 @@ public class Movement : MonoBehaviour
         rotationSpeed = 2f;
         rotationX = 0;
         rotationY = 10f;
-        jumpHeight = 5.0f;
         rBody = GetComponent<Rigidbody>();
         audio = GetComponent<AudioSource>();
         audio.Play();
@@ -49,11 +48,6 @@ public class Movement : MonoBehaviour
         rotationX = transform.localEulerAngles.y + Input.GetAxis("Mouse X") * rotationSpeed;
         rotationY += Input.GetAxis("Mouse Y") * rotationSpeed;
         transform.localEulerAngles = new Vector3(-rotationY, rotationX, 0);
-        bool isGrounded = Physics.CheckSphere(feet.position, 0.1f, ground);
-        if (Input.GetButtonDown("Jump") && isGrounded)
-        {           
-            rBody.AddForce(Vector3.up * jumpHeight, ForceMode.VelocityChange);
-        }
 
         if (Input.GetButtonDown("Fire1"))
         {

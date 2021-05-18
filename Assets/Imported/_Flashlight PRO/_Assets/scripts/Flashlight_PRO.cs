@@ -34,17 +34,23 @@ public class Flashlight_PRO : MonoBehaviour
 		ambient_light_material = Lights.transform.Find ("ambient").GetComponent<Renderer> ().material;
 		ambient_mat_color = ambient_light_material.GetColor ("_TintColor");
 	}
-	
+
+
+    private void Update()
+    {
+		if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+			Switch();
+        }
+	}
 
 
 
-
-
-	/// <summary>
-	/// changes the intensivity of lights from 0 to 100.
-	/// call this from other scripts.
-	/// </summary>
-	public void Change_Intensivity(float percentage)
+    /// <summary>
+    /// changes the intensivity of lights from 0 to 100.
+    /// call this from other scripts.
+    /// </summary>
+    public void Change_Intensivity(float percentage)
 	{
 		percentage = Mathf.Clamp (percentage, 0, 100);
 
