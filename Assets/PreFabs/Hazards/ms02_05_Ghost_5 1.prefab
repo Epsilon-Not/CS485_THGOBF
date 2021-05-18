@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 1380913634131969413}
   m_Layer: 0
   m_Name: ms02_05_Ghost_5 1
-  m_TagString: Untagged
+  m_TagString: Hazard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -293,7 +293,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.165
+  m_Volume: 0.158
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -391,7 +391,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosion: {fileID: 147082, guid: 3cb6f59ccdbfe3a47967d05314e72d78, type: 3}
   target: {fileID: 0}
-  speed: 3
+  speed: 2
   audioSource: {fileID: 1380913634131969412}
   clip1: {fileID: 8300000, guid: 08b4ba6cd22a9ab4986a13fff034f354, type: 3}
   clip2: {fileID: 8300000, guid: e031a2074fc57e147b5c4e516f54a129, type: 3}
