@@ -296,3 +296,33 @@ Received Import Request.
 Start importing Assets/Scenes/Level3.unity using Guid(c17b0357edbb05d4eacd4dccc068f3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68f87471fdf406c252763968b4d220c') in 0.002300 seconds
   Import took 0.005046 seconds .
 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.6 MB.
+System memory in use after: 90.7 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2274.
+Total: 3.154100 ms (FindLiveObjects: 0.245400 ms CreateObjectMapping: 0.060800 ms MarkObjects: 2.751600 ms  DeleteObjects: 0.094600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 790.512329 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(9aacf36514a8576499cd74cd0278c943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(9aacf36514a8576499cd74cd0278c943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026bdaa4613eab216e8b433f51688af3') in 0.017516 seconds
+  Import took 0.021167 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.6 MB.
+System memory in use after: 90.7 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2274.
+Total: 2.785300 ms (FindLiveObjects: 0.203100 ms CreateObjectMapping: 0.083300 ms MarkObjects: 2.418600 ms  DeleteObjects: 0.078400 ms)
+
